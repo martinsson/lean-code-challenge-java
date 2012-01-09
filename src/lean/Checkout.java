@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 public class Checkout {
+    /**
+     * java -cp ./bin/ lean/Checkout
+     */
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(System.console().reader());
         PrintWriter writer = System.console().writer();
