@@ -8,7 +8,9 @@ public class CashierTest {
 
     @Test
     public void test() {
-        fail("Not yet implemented");
+        Cashier cashier = new Cashier();
+        String totalAmount = cashier.enter("apple");
+        assertEquals("100", totalAmount);
     }
 
 }
