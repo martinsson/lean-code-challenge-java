@@ -7,10 +7,10 @@ import org.junit.Test;
 public class CashierTest {
 
     @Test
-    public void test() {
+    public void applesCost100() {
         Cashier cashier = new Cashier();
-        String totalAmount = cashier.enter("apple");
-        assertEquals("100", totalAmount);
+        int totalAmount = cashier.enter("apples");
+        assertEquals(100, totalAmount);
     }
 
 }

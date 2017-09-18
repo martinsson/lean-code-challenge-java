@@ -13,9 +13,8 @@ public class Cashier {
         }
     }
 
-    public String enter(String fruit) {
-        return null;
-
+    public int enter(String fruit) {
+        return 0;
     }
 
 }
