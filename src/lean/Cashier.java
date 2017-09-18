@@ -8,8 +8,10 @@ public class Cashier {
 
 
     public void checkout(BufferedReader reader, PrintWriter writer) throws IOException {
+        writer.println("> OK. Ready for next customer, ctrl+c to exit");
         while (true) {
-            writer.println(enter(reader.readLine()));
+            int totalAmount = enter(reader.readLine());
+            writer.println("> Current total: " + totalAmount);
         }
     }
 
